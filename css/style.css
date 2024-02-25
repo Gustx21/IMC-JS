@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    padding: 10px;
+    background-color: aquamarine;
+}
+
+p {
+    margin: 10px;
+}
+
+.input {
+    margin: 10px;
+}
+
+input[type="number"] {
+    padding: 5px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+#resultado {
+    margin: 10px;
+}
