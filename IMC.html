@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <style></style>
+  </head>
+  <body>
+    <main>
+      <div>
+        <h1>Calculadora - Índice de Massa Corporal</h1>
+
+        <div>
+            <label>Insira sua altura:</label>
+            <input type="number" id='altura' min="0" required>
+        </div>
+
+        <div>
+            <label>Insira seu peso:</label>
+            <input type="number" id='peso' min="0" required>
+        </div>
+
+        <button type="button" id='calcular' onclick="imc()">Calcular</button>
+
+        <div id='resultado'></div>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
