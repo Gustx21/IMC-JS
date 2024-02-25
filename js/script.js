@@ -4,6 +4,12 @@ function imc() {
     const resultado = window.document.getElementById('resultado');
     let grau;
 
+    // Mensagem de erro para valores inválidos
+    if (altura <= 20 || peso <= 300) {
+        alert("Insira um valor válido.");
+        return;
+    }
+
     const valorIMC = (peso / (altura * altura)).toFixed(1);
 
     if (valorIMC < 18.5) {
