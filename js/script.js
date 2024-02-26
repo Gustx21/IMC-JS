@@ -5,7 +5,7 @@ function imc() {
     let grau;
 
     // Mensagem de erro para valores inválidos
-    if (altura >= 2.20 || peso >= 200) {
+    if (altura > 2.20 || peso > 200) {
         alert("Insira um valor válido.");
         return;
     };
