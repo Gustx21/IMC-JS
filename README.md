@@ -1,5 +1,5 @@
 # Projeto de Calcular Índice de Massa Corporal
-<p>O projeto em JavaScript com intuito de calcular o índice de massa corporal (IMC) do usuário com scripts que realizam o cálculo do IMC (peso dividido pelo quadrado da altura) e exibe o resultado. É um aplicação simples, para judar ao usuário a monitorar sua saúde através do IMC.</p>
+ O projeto em JavaScript com intuito de calcular o índice de massa corporal (IMC) do usuário. É um aplicação simples, para judar ao usuário a monitorar sua saúde através do IMC.
 
 ## Tecnologia⚡
 <ul type="square">
@@ -9,7 +9,7 @@
 </ul>
 
 ## Contribuição😊
-<p>Contribuições são bem-vindas! Sinta-se à vontade para melhorar a estrutura, adicionar funcionalidade ou corrigir qualquer problema identificado.</p>
+ Contribuições são bem-vindas! Sinta-se à vontade para melhorar a estrutura, adicionar funcionalidade ou corrigir qualquer problema identificado.
 
 ## Diretrizes de Contribuição📌
 <ul>
@@ -19,5 +19,5 @@
 </ul>
 
 ## Licença⚙️
-<p>Este projeto é licenciado sob a <a href="LICENSE">licença MIT</a>, o que significa que você é livre para usar, modificar e distribuir este código.</p>
-<p>Esperamos contar com sua contribuição para tomar o Projeto JavaScript uma referência de solução práticas em JavaScript. Obrigado por fazer parte desta comunidade!</p>
+ Este projeto é licenciado sob a <a href="LICENSE">licença MIT</a>, o que significa que você é livre para usar, modificar e distribuir este código.
+ Esperamos contar com sua contribuição para tomar o Projeto JavaScript uma referência de solução práticas em JavaScript. Obrigado por fazer parte desta comunidade!
