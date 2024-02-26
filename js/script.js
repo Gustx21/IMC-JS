@@ -8,7 +8,7 @@ function imc() {
     if (altura <= 20 || peso <= 300) {
         alert("Insira um valor válido.");
         return;
-    }
+    };
 
     const valorIMC = (peso / (altura * altura)).toFixed(1);
 
