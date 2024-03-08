@@ -1,16 +1,16 @@
-function imc() {
+function calcularIMC() {
     const altura = window.document.getElementById('altura').value;
     const peso = window.document.getElementById('peso').value;
-    const resultado = window.document.getElementById('resultado');
-    let grau;
-
+    let resultado = window.document.getElementById('resultado');
+    
     // Mensagem de erro para valores inválidos
     if (altura > 2.20 || peso > 200) {
         alert("Insira um valor válido.");
         return;
     };
-
+    
     const valorIMC = (peso / (altura * altura)).toFixed(1);
+    let grau;
 
     if (valorIMC < 18.5) {
         grau = 'abaixo do peso.';
