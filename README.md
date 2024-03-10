@@ -1,4 +1,4 @@
-# Projeto de Calcular Índice de Massa Corporal
+# Projeto para Calcular Índice de Massa Corporal
  O projeto em JavaScript com intuito de calcular o índice de massa corporal (IMC) do usuário. É um aplicação simples, para judar ao usuário a monitorar sua saúde através do IMC.
 
 ## Tecnologia⚡
