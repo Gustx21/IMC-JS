@@ -1,15 +1,24 @@
 function calcularIMC() {
     const altura = window.document.getElementById('altura').value;
     const peso = window.document.getElementById('peso').value;
-    let resultado = window.document.getElementById('resultado');
     
+    detectarError(altura, peso);
+
+    const valorIMC = (peso / (altura * altura)).toFixed(1);
+
+    exibirIMC(valorIMC)
+};
+
+function detectarError(altura, peso) {
     // Mensagem de erro para valores inválidos
     if (altura > 2.20 || peso > 200) {
         alert("Insira um valor válido.");
         return;
     };
-    
-    const valorIMC = (peso / (altura * altura)).toFixed(1);
+}
+
+function exibirIMC(valorIMC) {
+    const resultado = window.document.getElementById('resultado');
     let grau;
 
     if (valorIMC < 18.5) {
@@ -27,4 +36,4 @@ function calcularIMC() {
     }
 
     resultado.textContent = `Seu IMC é ${valorIMC} e você está ${grau}`;
-};
+}
