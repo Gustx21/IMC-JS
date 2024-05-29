@@ -1,23 +1,20 @@
 function calcularIMC() {
+    const nome = window.document.getElementById('nome').value;
     const altura = window.document.getElementById('altura').value;
     const peso = window.document.getElementById('peso').value;
     
-    detectarError(altura, peso);
-
-    const valorIMC = (peso / (altura * altura)).toFixed(1);
-
-    exibirIMC(valorIMC)
-};
-
-function detectarError(altura, peso) {
     // Mensagem de erro para valores inválidos
-    if (altura > 2.20 || peso > 200) {
+    if (altura > 2.20 || peso > 200 || /[0-9]/.test(nome)) {
         alert("Insira um valor válido.");
         return;
     };
-}
 
-function exibirIMC(valorIMC) {
+    const valorIMC = (peso / (altura * altura)).toFixed(1);
+
+    exibirIMC(nome, valorIMC)
+};
+
+function exibirIMC(nome, valorIMC) {
     const resultado = window.document.getElementById('resultado');
     let grau;
 
@@ -35,5 +32,5 @@ function exibirIMC(valorIMC) {
         grau = 'com obesidade grau III. Cuidado!!!';
     }
 
-    resultado.textContent = `Seu IMC é ${valorIMC} e você está ${grau}`;
+    resultado.textContent = `Olá, ${nome}! Seu IMC é ${valorIMC} e você está ${grau}`;
 }
