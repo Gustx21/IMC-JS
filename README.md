@@ -6,6 +6,9 @@
 * HTML
 * CSS
 
+## Projeto Hospedado 🌐
+* **[Calculadora de IMC](https://gustx21.github.io/IMC-JS/IMC.html)**
+
 ## Contribuição😊
  Contribuições são bem-vindas! Sinta-se à vontade para melhorar a estrutura, adicionar funcionalidade ou corrigir qualquer problema identificado.
 
