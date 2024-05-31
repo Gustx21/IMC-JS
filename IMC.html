@@ -12,29 +12,37 @@
   <link rel="shortcut icon" href="image/logo.png" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rokkitt:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
   <script src="js/script.js" defer></script>
 </head>
 
 <body>
-  <header>
-    <h1>Calculadora - Índice de Massa Corporal</h1>
-    <p>Insira valores só númericos.</p>
-  </header>
+  <main>
+    <header>
+      <h2>Calculadora de IMC</h2>
+      <p>Na busca de uma vida mais saudável.</p>
 
-  <form method="dialog">
-    <label>Insira seu primeiro nome:</label>
-    <input type="text" name="nome" id="nome" required>
+      <img src="image/fitness-2-54.png" alt="Mulher levantando peso">
 
-    <label>Insira sua altura:</label>
-    <input type="number" id='altura' min="0" required>
+      <div id='resultado'></div>
+    </header>
 
-    <label>Insira seu peso:</label>
-    <input type="number" id='peso' min="0" required>
+    <form method="dialog">
+      <label>Insira seu primeiro nome:</label>
+      <input type="text" name="nome" id="nome" required>
 
-    <button type="button" onclick="calcularIMC()">Calcular</button>
+      <label>Insira sua altura:</label>
+      <input type="number" id='altura' min="0" required>
 
-    <div id='resultado'></div>
-  </form>
+      <label>Insira seu peso:</label>
+      <input type="number" id='peso' min="0" required>
+
+      <button type="button" onclick="calcularIMC()">Calcular</button>
+    </form>
+  </main>
 </body>
 
 </html>

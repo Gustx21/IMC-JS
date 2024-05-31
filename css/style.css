@@ -1,48 +1,63 @@
 * {
     padding: 0;
     margin: 0;
+    font-family: "Rokkitt", serif;
 }
 
-h1 {
-    padding: 10px;
-    background-color: aquamarine;
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
-p {
-    margin: 10px;
+main {
+    display: grid;
+    grid-template-columns: 35% auto;
+    border-width: 1px;
+    border-color: #465902;
+    border-style: solid;
+    border-radius: 15px;
+    box-shadow: 8px 8px 0px #a5a4a4;
+    width: 980px;
+    height: 400px;
+}
+
+header {
+    background-color: #b2d925;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    padding: 30px;
+    text-align: center;
+}
+
+img {
+    width: 230px;
 }
 
 form {
-    border-radius: 10px;
-    margin: 15px 2rem;
-    padding: 15px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
-.input {
-    margin: 10px;
-}
-
-input[type="number"], input[type="text"] {
+input {
     width: fit-content;
-    padding: 5px;
-    border-width: 2px;
+    padding: 4px;
+    border-width: 0.5px;
+    border-color: #465902;
     border-style: solid;
-    border-color: #000;
-    border-radius: 5px;
+    border-radius: 4px;
+    margin-top: 2px;
+    margin-bottom: 8px;
 }
 
 button {
     width: fit-content;
     padding: 10px 20px;
-    border-radius: 5px;
     border: none;
-    margin: 10px;
-    background-color: aquamarine;
-}
-
-#resultado {
-    margin: 10px;
+    border-radius: 5px;
+    background-color: #9bbf17;
+    color: antiquewhite;
 }
